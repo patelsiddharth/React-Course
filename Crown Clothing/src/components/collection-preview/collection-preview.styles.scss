@@ -1,0 +1,11 @@
+.collection-preview
+{
+    display: grid;
+    grid-auto-flow: row;
+    margin: 50px 0px;
+}
+.preview
+{
+    display: flex;
+    justify-content: space-between;
+}

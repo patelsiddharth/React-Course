@@ -1,0 +1,30 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    
+    .options
+    {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        & a
+        {
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        & a:hover
+        {
+            border-bottom : 2px solid black;
+        }
+    }
+
+    .signOut
+    {
+        cursor: pointer;
+    }
+}
